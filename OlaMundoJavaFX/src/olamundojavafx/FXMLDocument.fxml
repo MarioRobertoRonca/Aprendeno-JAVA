@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="195.0" prefWidth="479.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="olamundojavafx.FXMLDocumentController">
+   <children>
+      <Button fx:id="btnClick" layoutX="163.0" layoutY="115.0" mnemonicParsing="false" onAction="#clicouBotao" text="Click Aqui !">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblMensagem" layoutX="20.0" layoutY="40.0" text="Vai aparecer uma Mensagem" textFill="#eb2a15">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
